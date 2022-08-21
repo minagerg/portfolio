@@ -243,6 +243,7 @@ section h3 {
 
 }
 
+
 footer {
     background-color: #8f1010;
     padding: 20px;
@@ -250,27 +251,77 @@ footer {
     justify-content: space-between;
 
 }
-@media (max-width:1023px){header{padding: 15px 18px}
-.name{font-size: 20px;}
-section{padding: 80px 20px;}
-.main{height: 55vh;}
-.title{margin-top: -26px;
-    font-size: 28px;}
-.title-project{margin-top: -15px
-    ;}
-    section h3{margin-top: 5px;}
-.card{margin: 30px auto 0px auto;}
-}
-@media(max-width:425px){.main-btn{padding: 5px;
-} section h2{font-size: 14px;}
-.main{font-size: 16px;}
-section h2 span {font-size: 34px;}
-.main-btn{    padding: 3px;
-    margin-top: -5px;
-}}
-@media(max-width:280px){nav a{margin-left: 4px
-    ;}.card{margin-left: 20px;}}
-@media(max-width:768px){.main-btn{margin-top: -11px
-    px
-    ;}}
 
+@media (max-width:1023px) {
+    header {
+        padding: 15px 18px
+    }
+
+    .name {
+        font-size: 20px;
+    }
+
+    section {
+        padding: 80px 20px;
+    }
+
+    .main {
+        height: 55vh;
+    }
+
+    .title {
+        margin-top: -26px;
+        font-size: 28px;
+    }
+
+    .title-project {
+        margin-top: -15px;
+    }
+
+    section h3 {
+        margin-top: 5px;
+    }
+
+    .card {
+        margin: 30px auto 0px auto;
+    }
+}
+
+@media(max-width:425px) {
+    .main-btn {
+        padding: 5px;
+    }
+
+    section h2 {
+        font-size: 14px;
+    }
+
+    .main {
+        font-size: 16px;
+    }
+
+    section h2 span {
+        font-size: 34px;
+    }
+
+    .main-btn {
+        padding: 3px;
+        margin-top: -5px;
+    }
+}
+
+@media(max-width:280px) {
+    nav a {
+        margin-left: 4px;
+    }
+
+    .card {
+        margin-left: 20px;
+    }
+}
+
+@media(max-width:768px) {
+    .main-btn {
+        margin-top: -11px px;
+    }
+}
